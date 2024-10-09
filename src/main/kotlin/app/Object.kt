@@ -4,10 +4,15 @@ import data.Person
 
 fun main() {
     val eko = Person()
+    eko.firstName = "Eko"
     val joko = Person()
-    val budi = Person()
 
-    println(eko)
-    println(joko)
-    println(budi)
+    joko.firstName = "Joko"
+
+    val budi = Person()
+    budi.firstName = "Budi"
+
+    println(eko.firstName)
+    println(joko.firstName)
+    println(budi.firstName)
 }
