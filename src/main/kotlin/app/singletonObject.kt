@@ -10,7 +10,8 @@ fun main() {
     a()
     b()
 
-    println(Application.Utilities.toUpper("Eko"))
+    println(Application.Companion.toUpper("Eko"))
+    println(Application.toUpper("Eko"))
 }
 
 fun a() {
